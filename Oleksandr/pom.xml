@@ -3,15 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ua.com.javarush.jsquad.m1</groupId>
+    <artifactId>M2-ISLAND-JSQUAD</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
 
-  <groupId>ua.com.javarush.jsquad.m1</groupId>
-  <artifactId>M2-ISLAND-JSQUAD</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <modules>
-    <module>Oleksandr</module>
-    <module>Name</module>
-  </modules>
+  <artifactId>Oleksandr</artifactId>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
